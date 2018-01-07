@@ -3,7 +3,7 @@
 ### Les bases
 
 - [Définition](./01_bases/01-Definition.md)
-
+- [Liste des propriétés CSS transitionnables](./01_bases/02-List.md)
 
 
 
