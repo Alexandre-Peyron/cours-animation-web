@@ -9,6 +9,7 @@
 ### Animations - les bases
 
 - [Définition](02_animations_bases/01-Definition.md)
+- [Exercice](02_animations_bases/02-Exercise.md)
 
 
 
