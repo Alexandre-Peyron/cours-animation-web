@@ -27,3 +27,24 @@ Au click sur un bouton, cela ajoutera ou supprimera une class sur notre `div#tar
 
 Pour la gestion des class, on va biensûr utiliser du JavaScript, mais du Vanilla JS uniquement.
 
+
+### Pour aller plus loin
+
+Vous pouvez ajouter les transformations suivantes :
+
+- translate3d
+- translateZ
+- scale3d
+- scaleZ
+- rotate3d
+- perspective
+
+### Pour aller plus loin 2
+
+Sur la même page, à la suite, nous allons créer une `div#target2`.
+
+Cette fois-ci, pas de boutons, mais un tableau de 2x3 avec des `input[type=text]`.
+Chaque case du tableau va nous permettre de manipuler la propriété `matrice transform`.
+
+Cette fois, pas d'ajout de classe, mais directement du css inline généré depuis le JavaScript.
+
