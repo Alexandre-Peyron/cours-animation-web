@@ -23,4 +23,6 @@
 
 ### Sources 
 
+- [https://developer.mozilla.org/fr/docs/Web/CSS/transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
 - [https://css-tricks.com/myth-busting-css-animations-vs-javascript/](https://css-tricks.com/myth-busting-css-animations-vs-javascript/)
+- [https://css-tricks.com/making-css-animations-feel-natural/?utm_source=frontendfocus&utm_medium=email](https://css-tricks.com/making-css-animations-feel-natural/?utm_source=frontendfocus&utm_medium=email)
