@@ -23,6 +23,7 @@
 
 ### Sources 
 
-- [https://developer.mozilla.org/fr/docs/Web/CSS/transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
-- [https://css-tricks.com/myth-busting-css-animations-vs-javascript/](https://css-tricks.com/myth-busting-css-animations-vs-javascript/)
-- [https://css-tricks.com/making-css-animations-feel-natural/?utm_source=frontendfocus&utm_medium=email](https://css-tricks.com/making-css-animations-feel-natural/?utm_source=frontendfocus&utm_medium=email)
+- [Détails CSS Transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
+- [CSS Animation VS JavaScript/](https://css-tricks.com/myth-busting-css-animations-vs-javascript/)
+- [Exemple d'animation détaillée](https://css-tricks.com/making-css-animations-feel-natural/)
+- [SVG Line animation](https://css-tricks.com/svg-line-animation-works/)
