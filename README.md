@@ -15,7 +15,9 @@
 
 - [Définition](03_sprite_animations/01-Definition.md)
 
+### SVG Animation
 
+- [Animation des lignes](04_svg_animations/01-Line.md)
 
 
 
@@ -25,7 +27,13 @@
 
 ### Sources 
 
+#### CSS
 - [Détails CSS Transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
 - [CSS Animation VS JavaScript/](https://css-tricks.com/myth-busting-css-animations-vs-javascript/)
 - [Exemple d'animation détaillée](https://css-tricks.com/making-css-animations-feel-natural/)
+
+#### SVG
 - [SVG Line animation](https://css-tricks.com/svg-line-animation-works/)
+- [SVG Guide d'animation](https://la-cascade.io/guide-des-animations-svg/)
+- [SVG Animations exemples](https://www.hongkiat.com/blog/svg-animations/)
+- [Librairie d'animation SVG](https://maxwellito.github.io/vivus/)
