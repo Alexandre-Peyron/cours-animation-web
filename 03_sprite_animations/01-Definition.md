@@ -47,7 +47,7 @@ Création de l'animation
 ```css
 .knight {
   ...
-  animation: jump 0.8s steps(10) infinite;
+  animation: jump 0.8s steps(nb image de votre animation) infinite;
 }
 ```
 Tout se passe ici :
