@@ -81,4 +81,5 @@ Ajoutez les animations suivantes :
 - déplacement à droite (flèche droite du clavier)
 - déplacement à gauche
 - animation d'attaque lorsqu'on presse la barre d'espace
+- créez un moteur physique de rendu de la gravité et des collisions
 
