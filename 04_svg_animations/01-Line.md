@@ -57,11 +57,11 @@ Dessinez une forme à base de ligne dans votre outil vectoriel préféré (Illus
 
 Exportez au format `.svg`
 
-Importez votre svg dans une page web.
+Ouvrez le fichier svg dans un éditeur de texte et copier le contenu.
 
-```html
-<img src="monsvg.svg">
-```
+Intégrer votre svg dans une page web.
+
+Tester l'affichage.
 
 #### Première animation
 
@@ -115,11 +115,9 @@ La propriété `alternate` permet de lire l'animation dans un sens, puis dans l'
 
 Exemple inspiré de [cet article](https://css-tricks.com/svg-line-animation-works/)
 
-#### Projet web
+#### Conclusion
 
-Prenez un élément de votre projet web, exportez le en svg et tester des animations dessus.
-
-Vous avez vu qu'on peut appliquer des class sur les éléments d'un svg. On peut ainsi animer chaque
+Vous avez vu qu'on peut appliquer des class sur les éléments d'un svg, comme en HTML. On peut ainsi animer chaque
 partie de manière indépendante.
 
 
