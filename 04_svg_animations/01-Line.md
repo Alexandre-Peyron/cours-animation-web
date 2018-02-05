@@ -120,6 +120,6 @@ Exemple inspiré de [cet article](https://css-tricks.com/svg-line-animation-work
 Vous avez vu qu'on peut appliquer des class sur les éléments d'un svg, comme en HTML. On peut ainsi animer chaque
 partie de manière indépendante.
 
-Des [exemples](https://www.hongkiat.com/blog/svg-animations/) à voir absolument.
+Des exemple à voir [ici](https://www.hongkiat.com/blog/svg-animations/) et [là](https://medium.com/@aniboaz/animate-svg-4fa7dd00e860).
 
 
