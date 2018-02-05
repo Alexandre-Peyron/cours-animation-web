@@ -19,8 +19,8 @@
 
 - [Animation des lignes](04_svg_animations/01-Line.md)
 
-### JS Animation
-- [GreenSock](05_js_animations/01-GreenSock.md)
+### RENDU
+- [Projet à rendre](06_rendu/projet.md)
 
 
 
