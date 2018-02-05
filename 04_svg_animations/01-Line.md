@@ -11,14 +11,14 @@ Ici une ligne
 ```
 
 Un rectangle
-```
+```svg
 <svg width="198px" height="160px" viewBox="0 0 198 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <rect stroke="#979797" stroke-width="1" x="4.5" y="2.5" width="189" height="151"></rect>
 </svg>
 ```
 
 Un text sur un rond vert, sur un rectangle rouge
-```
+```svg
 <svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="red"/>
 
@@ -29,7 +29,7 @@ Un text sur un rond vert, sur un rectangle rouge
 ```
 
 Un rectangle avec une ombre portée
-```
+```svg
 <svg width="198px" height="160px" viewBox="0 0 198 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="path-1" x="4" y="2" width="190" height="152"></rect>
@@ -57,17 +57,17 @@ Dessinez une forme à base de ligne dans votre outil vectoriel préféré (Illus
 
 Exportez au format `.svg`
 
-Importez votre svg dans une page web.
+Ouvrez le fichier svg dans un éditeur de texte et copier le contenu.
 
-```html
-<img src="monsvg.svg">
-```
+Intégrer votre svg dans une page web.
+
+Tester l'affichage.
 
 #### Première animation
 
 Dans votre .svg directement, ajoutez une class `animated-svg` sur le path qui possède un `stroke`
 
-```
+```svg
 <svg ...>
   <path class="animated-svg" stroke="#000000" ... >
 </svg>
@@ -115,11 +115,11 @@ La propriété `alternate` permet de lire l'animation dans un sens, puis dans l'
 
 Exemple inspiré de [cet article](https://css-tricks.com/svg-line-animation-works/)
 
-#### Projet web
+#### Conclusion
 
-Prenez un élément de votre projet web, exportez le en svg et tester des animations dessus.
-
-Vous avez vu qu'on peut appliquer des class sur les éléments d'un svg. On peut ainsi animer chaque
+Vous avez vu qu'on peut appliquer des class sur les éléments d'un svg, comme en HTML. On peut ainsi animer chaque
 partie de manière indépendante.
+
+Des exemple à voir [ici](https://www.hongkiat.com/blog/svg-animations/) et [là](https://medium.com/@aniboaz/animate-svg-4fa7dd00e860).
 
 
