@@ -31,6 +31,7 @@
 
 #### Exemples d'animation
 - [https://codepen.io/dsenneff/pen/QajVxO](https://codepen.io/dsenneff/pen/QajVxO)
+- [SVG Animations exemples](https://www.hongkiat.com/blog/svg-animations/)
 
 #### CSS
 - [Détails CSS Transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
@@ -40,5 +41,4 @@
 #### SVG
 - [SVG Line animation](https://css-tricks.com/svg-line-animation-works/)
 - [SVG Guide d'animation](https://la-cascade.io/guide-des-animations-svg/)
-- [SVG Animations exemples](https://www.hongkiat.com/blog/svg-animations/)
 - [Librairie d'animation SVG](https://maxwellito.github.io/vivus/)
