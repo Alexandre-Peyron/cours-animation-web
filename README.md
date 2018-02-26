@@ -29,6 +29,9 @@
 
 ### Sources 
 
+#### Exemples d'animation
+- [https://codepen.io/dsenneff/pen/QajVxO](https://codepen.io/dsenneff/pen/QajVxO)
+
 #### CSS
 - [Détails CSS Transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
 - [CSS Animation VS JavaScript/](https://css-tricks.com/myth-busting-css-animations-vs-javascript/)
