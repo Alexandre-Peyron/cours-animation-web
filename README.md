@@ -31,7 +31,8 @@
 
 #### Exemples d'animation
 - [https://codepen.io/dsenneff/pen/QajVxO](https://codepen.io/dsenneff/pen/QajVxO)
-- [SVG Animations exemples](https://www.hongkiat.com/blog/svg-animations/)
+- [https://www.hongkiat.com/blog/svg-animations/](https://www.hongkiat.com/blog/svg-animations/)
+- [https://www.creativebloq.com/inspiration/css-animation-examples](https://www.creativebloq.com/inspiration/css-animation-examples)
 
 #### CSS
 - [Détails CSS Transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform)
