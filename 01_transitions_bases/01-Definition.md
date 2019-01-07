@@ -10,7 +10,7 @@ même si elles paraissent parler de la même chose.
 Les transitions et animations sont également possibles en JavaScript mais très grandement déconseillées.
 
 
-### Compatibilité
+### Compatibilité (Février 2018)
  
 ![CanIUse Animation](../img/caniuseAnimation.png "Can I Use Animation")
 
