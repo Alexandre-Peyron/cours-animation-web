@@ -53,15 +53,11 @@ Un rectangle avec une ombre portée
 
 #### Création d'un svg
 
-Dessinez une forme à base de ligne dans votre outil vectoriel préféré (Illustrator, Sketch...)
-
-Exportez au format `.svg`
-
-Ouvrez le fichier svg dans un éditeur de texte et copier le contenu.
-
-Intégrer votre svg dans une page web.
-
-Tester l'affichage.
+- Dessinez une forme à base de ligne dans votre outil vectoriel préféré (Illustrator, Sketch...)
+- Exportez au format `.svg`
+- Ouvrez le fichier svg dans un éditeur de texte et copier le contenu.
+- Intégrer votre svg dans une page web.
+- Tester l'affichage.
 
 #### Première animation
 
