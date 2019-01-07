@@ -23,7 +23,7 @@ On va ensuite créer 4 boutons d'interface qui nous permettrons d'activer ou non
 
 Encore une fois, vous utilisez les valeurs que vous souhaitez.
 
-Au click sur un bouton, cela ajoutera ou supprimera une `class sur notre `div#target` qui activera ou non la transformation.
+Au click sur un bouton, cela ajoutera ou supprimera une `class` sur notre `div#target` qui activera ou non la transformation.
 
 Pour la gestion des class, on va biensûr utiliser du JavaScript, mais du [Vanilla JS](https://openclassrooms.com/forum/sujet/vanilla-js-qu-est-ce-que-c-est-exactement) uniquement.
 
