@@ -6,7 +6,7 @@ d'une div présente dans la page.
 Pour cela, on va créer une `div#target`
 
 ```css
-/* Vous utilisez la taille et la couleur que vous voulez */
+/* Vous pouvez utiliser la taille et la couleur que vous voulez */
 #target {
   width: 200px;
   height: 200px;
@@ -23,9 +23,9 @@ On va ensuite créer 4 boutons d'interface qui nous permettrons d'activer ou non
 
 Encore une fois, vous utilisez les valeurs que vous souhaitez.
 
-Au click sur un bouton, cela ajoutera ou supprimera une class sur notre `div#target` qui activera ou non la transformation.
+Au click sur un bouton, cela ajoutera ou supprimera une `class sur notre `div#target` qui activera ou non la transformation.
 
-Pour la gestion des class, on va biensûr utiliser du JavaScript, mais du Vanilla JS uniquement.
+Pour la gestion des class, on va biensûr utiliser du JavaScript, mais du [Vanilla JS](https://openclassrooms.com/forum/sujet/vanilla-js-qu-est-ce-que-c-est-exactement) uniquement.
 
 
 ### Pour aller plus loin
@@ -46,5 +46,5 @@ Sur la même page, à la suite, nous allons créer une `div#target2`.
 Cette fois-ci, pas de boutons, mais un tableau de 2x3 avec des `input[type=text]`.
 Chaque case du tableau va nous permettre de manipuler la propriété `matrice transform`.
 
-Cette fois, pas d'ajout de classe, mais directement du css inline généré depuis le JavaScript.
+Cette fois, pas d'ajout de class, mais directement du css inline généré depuis le JavaScript.
 
