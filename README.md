@@ -14,6 +14,7 @@
 ### Sprite Animations
 
 - [Définition](03_sprite_animations/01-Definition.md)
+- [Exercice](03_sprite_animations/02-Exercise.md)
 
 ### SVG Animation
 
