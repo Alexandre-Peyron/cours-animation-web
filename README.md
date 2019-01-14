@@ -54,3 +54,4 @@
 
 #### Conférences 
 - [Web Animation Performance - Freddy Harris - Best of Web 2016](https://www.youtube.com/watch?v=qrbbD-1ET14)
+- [High Performance Google](https://www.youtube.com/watch?v=thNyy5eYfbc)
