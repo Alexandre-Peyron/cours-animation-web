@@ -45,5 +45,12 @@
 - [SVG Guide d'animation](https://la-cascade.io/guide-des-animations-svg/)
 - [Librairie d'animation SVG](https://maxwellito.github.io/vivus/)
 
-### Conférences 
+#### JS
+- [Request Animation Frame](https://www.html5rocks.com/en/tutorials/speed/animations/?redirect_from_locale=fr)
+
+#### Performances
+- [Rendering](https://www.html5rocks.com/en/tutorials/speed/rendering/)
+- [Chrome Rendering](https://developers.google.com/web/fundamentals/performance/rendering/)
+
+#### Conférences 
 - [Web Animation Performance - Freddy Harris - Best of Web 2016](https://www.youtube.com/watch?v=qrbbD-1ET14)
