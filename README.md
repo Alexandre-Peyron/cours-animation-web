@@ -31,7 +31,7 @@
 ### Sources 
 
 #### Exemples d'animation
-- [https://codepen.io/dsenneff/pen/QajVxO](https://codepen.io/dsenneff/pen/QajVxO)
+- [Yeti Login](https://codepen.io/dsenneff/pen/2d338b0adf97472ebc5d473cf1fa910b)
 - [https://www.hongkiat.com/blog/svg-animations/](https://www.hongkiat.com/blog/svg-animations/)
 - [https://www.creativebloq.com/inspiration/css-animation-examples](https://www.creativebloq.com/inspiration/css-animation-examples)
 
