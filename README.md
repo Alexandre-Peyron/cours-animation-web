@@ -44,3 +44,6 @@
 - [SVG Line animation](https://css-tricks.com/svg-line-animation-works/)
 - [SVG Guide d'animation](https://la-cascade.io/guide-des-animations-svg/)
 - [Librairie d'animation SVG](https://maxwellito.github.io/vivus/)
+
+### Conférences 
+- [Web Animation Performance - Freddy Harris - Best of Web 2016](https://www.youtube.com/watch?v=qrbbD-1ET14)
