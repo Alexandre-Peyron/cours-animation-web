@@ -9,6 +9,7 @@
 
 ### Exercices
 
+- [Loader Dots](Exercises/loader_dot/Loader-dot.md)
 - [Sprite Animation](Exercises/sprite_animations/Sprite-Animation.md)
 - [Animation des lignes](Exercises/svg_line_animation/01-Line.md)
 
