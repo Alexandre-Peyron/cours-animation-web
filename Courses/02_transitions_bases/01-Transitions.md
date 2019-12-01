@@ -1,4 +1,4 @@
-### Les transitions
+# Les transitions
 
 Maintenant qu'on a les bases en CSS pour jouer avec les propriétés d'un élément, on va rendre ça un peu plus vivant.
 
