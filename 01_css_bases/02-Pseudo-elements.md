@@ -26,6 +26,12 @@ Comme on peut le voir, aucun problème pour utiliser before et after.
 
 ### Exercices 
 
-Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./01-Pseudo-elements.html)
+Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./02-Pseudo-elements.html)
 
+Maintenant que notre bouton possède le comportement souhaité au hover, on va ajouter quelques détails.
 Faites en sorte qu'au hover, ce symbole "→" apparaisse après le texte du bouton.
+
+
+***
+
+[Exercice suivant → Les Transformations](./03-Transformations.md)

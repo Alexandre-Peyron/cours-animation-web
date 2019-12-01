@@ -40,9 +40,17 @@ Les plus utilisés :
 
 Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./01-Pseudo-classes.html)
 
+Ce fichier contient un bouton avec un style initial. L'objectif est d'ajouter un comportement au hover.
+
 Modifiez notre bouton pour ajouter successivement les propriétés suivantes au hover et observez les changements :
 - la couleur de fond
 - la couleur du texte (white)
 - la bordure (couleur et taille)
 - l'arrondi de la bordure
 - le padding
+
+
+
+***
+
+[Exercice suivant → Les Pseudo-éléments](./02-Pseudo-elements.md)
