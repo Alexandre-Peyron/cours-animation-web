@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Loader Dots</title>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    .loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 142px;
+      height:40px;
+      background:#fff;
+    }
+
+    .loader .dot {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      top: 12px;
+      left: 15px;
+      background: #2a2a2a;
+      border-radius: 50%;
+    }
+
+    .loader .dots span {
+      display: block;
+      float: left;
+      width: 16px;
+      height: 16px;
+      margin-left: 16px;
+      background: #2a2a2a;
+      border-radius: 50%;
+    }
+
+    .loader .dots {
+      margin-top: 12px;
+      margin-left: 31px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="loader">
+    <span class="dot"></span>
+    <div class="dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</body>
+</html>

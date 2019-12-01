@@ -72,7 +72,7 @@ Utilisez les conseils de [cet article](https://css-tricks.com/making-css-animati
 
 Enlevez le infinite.
 
-Faites en sorte que l'animation se déclanche lorsqu'on appuie sur la flèche du haut du clavier.
+Faites en sorte que l'animation se déclenche lorsqu'on appuie sur la flèche du haut du clavier.
 
 Toujours à faire en vanilla JS.
 
