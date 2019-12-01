@@ -1,5 +1,9 @@
 # Transitions et Animations Web
 
+### CSS - Les bases
+- [Les pseudo-classes](01_css_bases/01-Pseudo-classes.md)
+- [Les pseudo-éléments](01_css_bases/02-Pseudo-elements.md)
+
 ### Transitions - Les bases
 
 - [Définition](01_transitions_bases/01-Definition.md)
