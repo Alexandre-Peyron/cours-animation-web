@@ -37,14 +37,26 @@ a.btn {
 }
 ```
 
-A présent, le rendu est déjà beaucoup plus agréable. 
-Sans transition, le changement se fesait de manière instantanée, maintenant il se fait en 600 millisecondes.
-
 > Valeur de durée 
 > Il y a plusieurs manière d'indiquer une durée en CSS. Les 3 lignes suivantes ont la même valeur :
 > - 600ms
 > - 0.6s
 > - .6s
+
+
+A présent, le rendu est déjà beaucoup plus agréable. 
+Sans transition, le changement se fesait de manière instantanée, maintenant il se fait en 600 millisecondes.
+
+> Déclencher une transition
+>
+> Dans notre exemple, on utilise la pseudo class :hover pour déclencher l'animation de transition.
+> Mais d'autres options sont possibles, comme l'application d'une class css spécifique 
+>
+> Exemple :
+> `a.btn.enable`
+> `a.btn.disable`
+>
+> Méthode souvant utiliser dans des applications JavaScript pour changer l'état d'un élément en fonction des évènements JS.
 
 On pourrait remplacer `background-color` par le mot clé `all` pour que la transition s'applique à toutes les propriétés
 mais c'est plutôt déconseillé car gourmand en performance.
