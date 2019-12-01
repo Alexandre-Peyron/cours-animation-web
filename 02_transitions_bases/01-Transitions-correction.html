@@ -24,6 +24,7 @@
       font-size: 12px;
       letter-spacing: .3em;
       background: none;
+      transition: all 600ms;
     }
 
     a.btn:hover {
@@ -32,12 +33,27 @@
       border-color: #2a2a2a;
     }
 
-    a.btn:hover:after {
+    a.btn:after {
+      display: inline-block;
       content: "→";
+      visibility: hidden;
+      opacity: 0;
+      margin-left: -22px;
+      transition: all 600ms;
+      color: #2a2a2a;
+    }
+
+    a.btn:hover:after {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(22px);
+      color: #fff;
     }
   </style>
 </head>
 <body>
-<a class="btn">MON BOUTON</a>
+<a class="btn">
+  <span>MON BOUTON</span>
+</a>
 </body>
 </html>

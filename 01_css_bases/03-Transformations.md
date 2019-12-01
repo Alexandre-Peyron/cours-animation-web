@@ -42,3 +42,7 @@ Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./
 Faites en sorte qu'au hover, le bouton se déforme pour prendre la forme d'un losange et 
 qu'il grandisse de x1.5 sa taille initiale.
 
+
+***
+
+[Exercice suivant → Les Transitions](../02_transitions_bases/01-Transitions.md)

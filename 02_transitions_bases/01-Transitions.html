@@ -32,12 +32,24 @@
       border-color: #2a2a2a;
     }
 
-    a.btn:hover:after {
+    a.btn:after {
+      display: inline-block;
       content: "→";
+      color: #fff;
+      opacity: 0;
+      margin-left: -22px;
+      transition: all 600ms;
     }
+
+    a.btn:hover:after {
+      opacity: 1;
+    }
+
   </style>
 </head>
 <body>
-<a class="btn">MON BOUTON</a>
+<a class="btn">
+  <span>MON BOUTON</span>
+</a>
 </body>
 </html>
