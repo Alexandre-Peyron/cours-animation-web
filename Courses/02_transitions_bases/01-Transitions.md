@@ -13,7 +13,7 @@ Le meilleur exemple est la propriété `display`. On ne peut pas faire une trans
 Simplement car il n'y a pas d'état intermédiaire entre les deux. Soit l'élément est visible, soit il ne l'est pas.
 Pour le faire apparaitre progressivement, il faut jouer sur l'opacité (de 0 à 1).
 
-Vous pouvez trouver [ici la liste des propriétés transitionable](./02-Transition-properties-list.md)
+Vous pouvez trouver [ici la liste des propriétés transitionable](02-Transition-properties-list.md)
 
 ### Compatibilité 
  
@@ -25,7 +25,7 @@ Les transitions sont également possibles en JavaScript mais très grandement d�
 
 ### Premier exemple
 
-Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./01-Transitions.html)
+Téléchargez le fichier suivant et travaillez directement dessus : [fichier](01-Transitions.html)
 
 Reprenons notre bouton et améliorons le rendu au hover. Ajoutez les 2 lignes suivantes à votre css.
 

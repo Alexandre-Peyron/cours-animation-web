@@ -1,14 +1,28 @@
-# Animation Sprite
+# Sprite Animations
+
+Un sprite est une image contenant plusieurs images. En CSS, on va jouer sur la propriété `background-position`
+pour afficher l'image souhaitée en fonction du contexte.
+
+Un sprite est utilisé dans 2 cas :
+
+- sur le web classique, afin de regrouper l'ensemble des images de design et icônes en une image et 
+ainsi limiter les requêtes http. Tout ceci dans un soucis de performance
+
+- dans le cas d'une transition d'image, type dessin animé. 
+
+C'est ce 2e cas qu'on va voir ici.
+
+## Exercice
 
 ### Créer le sprite
 
-Téléchargez les sources suivantes : [Knight.zip](../sources/freeknight.zip)
+Téléchargez les sources suivantes : [Knight.zip](sources/freeknight.zip)
 
 Ici les images sources sont séparées, trouver un outil permettant de générer des sprites.
 
 On va travailler sur l'animation de saut (Jump).
 
-Il faut que les images de votre sprite soient sur une seule ligne horizontale.
+Il faut que les images de votre sprite soient sur une *seule ligne horizontale* et dans le bon ordre chronologique.
 
 
 ### CSS
@@ -70,3 +84,9 @@ Ajoutez les animations suivantes :
 - déplacement à gauche
 - animation d'attaque lorsqu'on presse la barre d'espace
 - créez un moteur physique de rendu de la gravité et des collisions
+
+
+
+
+
+

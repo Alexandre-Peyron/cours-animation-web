@@ -38,7 +38,7 @@ Les plus utilisés :
 
 ### Exercices 
 
-Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./01-Pseudo-classes.html)
+Téléchargez le fichier suivant et travaillez directement dessus : [fichier](01-Pseudo-classes.html)
 
 Ce fichier contient un bouton avec un style initial. L'objectif est d'ajouter un comportement au hover.
 
@@ -53,4 +53,4 @@ Modifiez notre bouton pour ajouter successivement les propriétés suivantes au 
 
 ***
 
-[Exercice suivant → Les Pseudo-éléments](./02-Pseudo-elements.md)
+[Exercice suivant → Les Pseudo-éléments](02-Pseudo-elements.md)

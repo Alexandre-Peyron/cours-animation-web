@@ -21,7 +21,7 @@ Dès que possible, utilisez les en CSS.
 
 ### Premier exemple
 
-Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./01-Animations.html)
+Téléchargez le fichier suivant et travaillez directement dessus : [fichier](01-Animations.html)
 
 Nous allons créer notre première animation : 
 

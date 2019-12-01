@@ -37,7 +37,7 @@ La propriété Transform peut être utilisé sans problème, elle est compatible
 
 ### Exercice
 
-Téléchargez le fichier suivant et travaillez directement dessus : [fichier](./03-Transformations.html)
+Téléchargez le fichier suivant et travaillez directement dessus : [fichier](03-Transformations.html)
 
 Faites en sorte qu'au hover, le bouton se déforme pour prendre la forme d'un losange et 
 qu'il grandisse de x1.5 sa taille initiale.
