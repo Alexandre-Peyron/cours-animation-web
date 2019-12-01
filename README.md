@@ -14,4 +14,4 @@
 
 ### Sources 
 
-- [Liste des sources utilisées pour ce cours]()
+- [Liste des sources utilisées pour ce cours](Courses/Credits/Sources.md)

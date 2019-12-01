@@ -1,4 +1,4 @@
-### Liste des propriétés CSS sur lesquelles on peut appliquer une animation.
+# Liste des propriétés CSS sur lesquelles on peut appliquer une animation.
 
 Pour des performances optimums, on essaie de travailler principalement sur la propriété `transform` (translate, rotate, scale...)
 mais toutes les propriétés suivantes sont utilisables :

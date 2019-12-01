@@ -56,3 +56,8 @@ Maintenant, travaillons sur la flèche :
 - Ajoutez une transition sur la propriété translate pour placer correctement la flèche à la fin de l'animation.
 
 Voilà, on a un bouton bien travaillé visuellement. La finition est beaucoup plus agréable et professionnelle.
+
+
+***
+
+[Exercice suivant → Les Animations](../03_animations_bases/01-Animations.md)

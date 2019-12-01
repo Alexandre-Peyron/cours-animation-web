@@ -1,4 +1,4 @@
-### Pseudo-classes
+# Pseudo-classes
 
 Une pseudo-classe est un mot-clé qui s'ajoute à un sélecteur afin de l'appliquer dans un état spécifique. 
 

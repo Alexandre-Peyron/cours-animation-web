@@ -1,4 +1,4 @@
-### Animations
+# Animations
 
 La transition et l'animation, nous permettent d'animer des changements de propriétés sur des éléments HTML.
 Dans les 2 cas, nous avons un état de départ et un état de fin.
@@ -57,4 +57,4 @@ A présent :
 - Ajouter une propriété pour que l'animation se rembobine 
 - Modifier une propriété pour que l'animation se joue à l'infini
 
-Voilà, vous maitrisez les bases de l'animation en CSS !
+Voilà, vous maitrisez les bases de l'animation en CSS ! Passons à des cas plus concrets.

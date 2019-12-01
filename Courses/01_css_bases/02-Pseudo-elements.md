@@ -1,4 +1,4 @@
-### Pseudo-éléments
+# Pseudo-éléments
 
 Un pseudo-élément est un mot-clé qui s'ajoute à un sélecteur afin de l'appliquer à une partie spécifique de l'élément ciblé. 
 
