@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Burger</title>
+    <style>
+        #btn-menu {
+            width: 60px;
+            height: 60px;
+            background-color: brown;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 76px;
+            cursor: pointer;
+        }
+
+        span {
+            display: block;
+            width: 300px;
+            height: 100px;
+            line-height: 100px;
+            margin-left: 50px;
+            cursor: pointer;
+            background: aliceblue;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+
+        .overlay {
+            height:100%;
+            width: 0;
+            position: fixed;
+            top: 0;
+            background: #000;
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+
+        .overlay-content {
+            position: relative;
+            top: 30%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .overlay a:hover {
+            color: #f1f1f1;
+        }
+
+        .overlay .btn-close {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+    <a href="#" onclick="closeNav()" class="btn-close">&times;</a>
+
+    <div class="overlay-content">
+        <a href="#">A Propos</a>
+        <a href="#">Galleries</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+<div id="btn-menu" onclick="openNav()">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
+        <rect fill="#FFFFFF" width="34" height="4"></rect>
+        <rect y="11" fill="#FFFFFF" width="34" height="4"></rect>
+        <rect y="23" fill="#FFFFFF" width="34" height="4"></rect>
+    </svg>
+</div>
+
+<script>
+    function openNav(){
+        document.getElementById("myNav").style.width = '100%';
+    }
+    function closeNav(){
+        document.getElementById("myNav").style.width = '0%';
+    }
+</script>
+</body>
+</html>
