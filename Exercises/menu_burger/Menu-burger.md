@@ -8,6 +8,7 @@ Objectifs :
 - A l'état inital, le menu ne doit pas être visible.
 - Au click sur le bouton de menu, celui-ci apparait et prend place sur toute la page.
 - A l'apparition une animation doit se produire.
+- Ajouter un effet de rebond à la fin de l'animation
 
 Plusieurs approches sont possibles ici. Je vous laisse creuser.
 
