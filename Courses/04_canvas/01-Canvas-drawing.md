@@ -211,7 +211,7 @@ ctx.strokeStyle = 'green';
 ctx.stroke();
 ```
 
-Les 2 lignes partent du même point et arrivent au même point.
+Les 2 lignes partent quasiment du même point et arrivent quasiment au même point (il y a un décalage de quelques pixels pour la lisibilité).
 Chacune possédant des coordonnées lui faisant prendre une trajectoire différente.
 
 Pour représenter visuellement les transformations. On va afficher les points de la courbe. 
