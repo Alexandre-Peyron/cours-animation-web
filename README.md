@@ -6,6 +6,7 @@
 - [CSS - Les Transitions](Courses/02_transitions_bases/01-Transitions.md)
 - [CSS - Les Animations](Courses/03_animations_bases/01-Animations.md)
 - [Canvas - Les bases du dessin](Courses/04_canvas/01-Canvas-drawing.md)
+- [Canvas - Animations](Courses/04_canvas/02-Canvas-animation.md)
 
 
 ### Exercices

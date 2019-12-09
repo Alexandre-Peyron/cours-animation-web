@@ -261,3 +261,8 @@ On affiche à présent les 2 points (début et fin) de la courbe de bézier. Ain
 Maintenant l'exercice, dessinez un coeur comme celui-ci : 
 
 ![Coeur](img/heart.png "Coeur")
+
+
+***
+
+[Exercice suivant → Canvas - Les Animations](02-Canvas-animation.md)
