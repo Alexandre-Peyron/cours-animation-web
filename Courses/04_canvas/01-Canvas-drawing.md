@@ -130,3 +130,134 @@ Il faudra donc :
 - jouer sur l'épaisseur des tracés.
 - appliquer une couleur sur le tracé et sur le remplissage.
 - appliquer un dégradé sur la voile.
+
+
+### Première courbe
+
+Vous pouvez utilisez un nouveau fichier : [fichier](01-Canvas-Drawing.html)
+
+Ok, c'est gentil ces carrés et ces polygones, mais on peut pas mettre un peu de rondeur à tout ça ?
+
+Si !
+
+> Pour cela, il faut quelques notions de trigonométrie et connaitre la notion de Radian. 
+> Il s'agit d'une unité de mesure pour les angles, basée sur la valeur de Pi. 
+> Sachant que : 
+> - 180° vaut Pi
+> - 360° vaut Pi*2
+> - 90° vaut Pi/2
+>
+> ![Radian](img/radian.png "Radian")
+>
+
+Pour dessiner des cercles ou des arcs nous avons plusieurs méthodes à disposition dont : [arcTo()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo) et [arc()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc).
+
+Cette dernière sera la plus utilisée : 
+
+```javascript
+ctx.arc(x, y, rayon, angleDépart, angleFin)
+```
+
+Sur votre fichier, copiez le code suivant : 
+
+```javascript
+ctx.beginPath();                        // On début le tracé
+ctx.arc(175,175,100,0,Math.PI*2,true);  // Dessine un cercle
+ctx.strokeStyle = "black";              // On applique une couleur au tracé
+ctx.fillStyle = "yellow";               // On applique une couleur de replissage
+ctx.fill();                             // On affiche le remplissage
+ctx.stroke();                           // On affiche le tracé
+```
+
+Dans le détail pour la création de notre cercle : 
+- x=175 et y=175 est notre position initiale, c'est le centre du cercle
+- 100 est le rayon de notre cercle
+- 0 notre angle de départ, il s'agit du sommet du cercle.
+- Math.PI * 2, l'angle de fin, on fait donc un tour complet
+
+Ajoutez les lignes suivantes à votre canvas, observez le résultat :
+
+```javascript
+ctx.beginPath();
+ctx.arc(175, 175, 60, 0, Math.PI);
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.strokeStyle = "#369";
+ctx.fillStyle="#c00";
+ctx.arc(205, 130, 15, 0, Math.PI*2);
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(145, 130, 15, 0, Math.PI*2);
+ctx.stroke();
+```
+
+Pour les courbes plus particulières, on a 2 autres méthodes : [bezierCurveTo](https://developer.mozilla.org/fr/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo) et [quadraticCurveTo](https://developer.mozilla.org/fr/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo)
+
+Dans votre canvas, ajoutez les lignes suivantes : 
+
+```javascript
+ctx.beginPath();
+ctx.moveTo(10, 10);
+ctx.bezierCurveTo(230, 30, 150, 80, 250, 300);
+ctx.strokeStyle = 'red';
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(10, 10);
+ctx.quadraticCurveTo(0, 150, 250, 300);
+ctx.strokeStyle = 'green';
+ctx.stroke();
+```
+
+Les 2 lignes partent du même point et arrivent au même point.
+Chacune possédant des coordonnées lui faisant prendre une trajectoire différente.
+
+Pour représenter visuellement les transformations. On va afficher les points de la courbe. 
+Ajoutez les lignes suivantes : 
+
+```javascript
+// Points de départ et d'arrivée
+ctx.fillStyle = "green";
+ctx.beginPath();
+ctx.arc(10, 10, 5, 0, 2 * Math.PI);   // Point de départ
+ctx.arc(250, 300, 5, 0, 2 * Math.PI);  // Point d'arrivée
+ctx.fill();
+
+// Point de contrôle
+ctx.fillStyle = 'green';
+ctx.beginPath();
+ctx.arc(10, 150, 5, 0, 2 * Math.PI);
+ctx.fill();
+```
+
+Trois points verts apparaissent. 2 représentent le début et la fin de la ligne. 
+Le 3e est celui qui crée la courbe. Imaginez qu'initialement, il s'agit d'une ligne droite et que plus on éloigne ce point de la droite, plus la courbure est accentuée.
+
+Modifiez les valeurs (quadraticCurveTo et arc), pour voir le comportement.
+
+Maintenant, ajoutez ces lignes : 
+
+```javascript
+// Points de départ et d'arrivée
+ctx.fillStyle = 'red';
+ctx.beginPath();
+ctx.arc(30, 10, 5, 0, 2 * Math.PI);   // Point de départ
+ctx.arc(280, 300, 5, 0, 2 * Math.PI); // Point d'arrivée
+ctx.fill();
+
+// Points de contrôle
+ctx.fillStyle = 'red';
+ctx.beginPath();
+ctx.arc(150, 180, 5, 0, 2 * Math.PI);  // Point de contrôle 1
+ctx.arc(280, 30, 5, 0, 2 * Math.PI);  // Point de contrôle 2
+ctx.fill();
+```
+
+On affiche à présent les 2 points (début et fin) de la courbe de bézier. Ainsi que les 2 points qui appliquent la transformation.
+
+
+Maintenant l'exercice, dessinez un coeur comme celui-ci : 
+
+![Coeur](img/heart.png "Coeur")

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #my-canvas {
+      background-color: #f4f5f6;
+    }
+
+    /* Votre CSS ici */
+
+  </style>
+</head>
+<body>
+<!-- Votre HTML-->
+<canvas id="my-canvas" width="350" height="350"> </canvas>
+</body>
+<script type="text/javascript">
+    // Votre JS ici
+    var c = document.getElementById( 'my-canvas' );
+    var ctx = c.getContext("2d");
+
+    ctx.beginPath();
+    ctx.strokeStyle = "red";
+    ctx.lineWidth = 5;
+    ctx.moveTo(215, 75);
+    ctx.bezierCurveTo(235, 5, 335, 5, 335, 90);
+    ctx.quadraticCurveTo(335, 190, 215, 260);
+    ctx.quadraticCurveTo(95, 190, 95, 90);
+    ctx.bezierCurveTo(95, 5, 200, 5, 215, 75);
+    ctx.stroke();
+</script>
+</html>
