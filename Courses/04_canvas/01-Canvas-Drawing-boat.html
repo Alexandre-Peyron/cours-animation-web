@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    #my-canvas {
+      background-color: #f4f5f6;
+    }
+
+    /* Votre CSS ici */
+
+  </style>
+</head>
+<body>
+<!-- Votre HTML-->
+<canvas id="my-canvas" width="350" height="350"> </canvas>
+</body>
+<script type="text/javascript">
+    // Votre JS ici
+    var c = document.getElementById( 'my-canvas' );
+    var ctx = c.getContext("2d");
+
+    var gradient = ctx.createLinearGradient(0, 0, 200, 0);
+    gradient.addColorStop(0, '#145686');
+    gradient.addColorStop(1, '#2C9AD9');
+
+    // Voile 1
+    ctx.beginPath();
+    ctx.moveTo(150,80);
+    ctx.lineTo(300,230);
+    ctx.lineTo(150,230);
+    ctx.closePath();
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // Voile 2
+    ctx.beginPath();
+    ctx.moveTo(130,80);
+    ctx.lineTo(130,230);
+    ctx.lineTo(50,230);
+    ctx.closePath();
+    ctx.fillStyle = gradient;
+    ctx.fill();
+
+    // Coque
+    ctx.beginPath();
+    ctx.moveTo(50,250);
+    ctx.lineTo(100,300);
+    ctx.lineTo(250,300);
+    ctx.lineTo(300,250);
+    ctx.fillStyle = "peru";
+    ctx.strokeStyle = "sienna"; 
+    ctx.lineWidth = 5;
+    ctx.fill();   
+    ctx.stroke();
+
+    // Mât
+    ctx.beginPath();
+    ctx.moveTo(140,50);
+    ctx.lineTo(140,250);
+    ctx.lineWidth = 10;
+    ctx.stroke();
+</script>
+</html>

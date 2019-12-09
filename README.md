@@ -1,10 +1,11 @@
 # Transitions et Animations Web
 
 ### Les bases
-- [Les pseudo-classes](Courses/01_css_bases/01-Pseudo-classes.md)
-- [Les pseudo-éléments](Courses/01_css_bases/02-Pseudo-elements.md)
-- [Les Transitions](Courses/02_transitions_bases/01-Transitions.md)
-- [Les Animations](Courses/03_animations_bases/01-Animations.md)
+- [CSS - Les pseudo-classes](Courses/01_css_bases/01-Pseudo-classes.md)
+- [CSS - Les pseudo-éléments](Courses/01_css_bases/02-Pseudo-elements.md)
+- [CSS - Les Transitions](Courses/02_transitions_bases/01-Transitions.md)
+- [CSS - Les Animations](Courses/03_animations_bases/01-Animations.md)
+- [Canvas - Les bases du dessin](Courses/04_canvas/01-Canvas-drawing.md)
 
 
 ### Exercices
