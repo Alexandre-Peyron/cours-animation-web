@@ -17,6 +17,9 @@
 - [Animation des lignes](Exercises/svg_line_animation/01-Line.md)
 - [Canvas Rosace](Exercises/canvas_rosace/Canvas-Rosace.md)
 
+### Rendu
+- [Rendu Développeurs](Courses/06_rendu/projet-dev.md)
+
 ### Pour approfondir
 
 - [Exemples sympa](Courses/Credits/Links.md)
