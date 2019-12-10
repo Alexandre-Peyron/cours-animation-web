@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #my-canvas {
+            background-color: #2a2a2a;
+        }
+
+
+    </style>
+</head>
+<body>
+<canvas id="my-canvas" width="650" height="450"> </canvas>
+</body>
+<script type="text/javascript">
+    // Votre JS ici
+    var canvas = document.getElementById( 'my-canvas' );
+    var ctx = canvas.getContext("2d");
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    var x = 0;
+    var y = 0;
+    var tour = 0;
+
+    ctx.translate(innerWidth / 2, innerHeight / 2);
+
+
+    function render() {
+
+        ctx.beginPath();
+        ctx.strokeStyle = '#EDF5E1';
+        ctx.arc(x, y, 100, 0, Math.PI * 2);
+        ctx.stroke();
+
+        ctx.rotate(30 * Math.PI / 180);
+        tour += 30;
+
+        if (tour > 7200) {
+            return;
+        }
+
+        if (tour % 360 === 0) {
+            x += 10;
+            y += 10;
+        }
+
+
+        requestAnimationFrame(render);
+    }
+
+    requestAnimationFrame(render);
+
+
+</script>
+</html>
