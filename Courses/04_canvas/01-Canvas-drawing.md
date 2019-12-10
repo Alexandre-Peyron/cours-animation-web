@@ -126,10 +126,10 @@ Exercice suivant, dessiner ce bateau :
 ![Bateau](img/boat.png "Bateau")
 
 Il faudra donc :
-- créer 3 formes distinctes.
+- créer 4 formes distinctes.
 - jouer sur l'épaisseur des tracés.
 - appliquer une couleur sur le tracé et sur le remplissage.
-- appliquer un dégradé sur la voile.
+- trouver comment créer un dégradé et l'appliquer sur les voiles.
 
 
 ### Première courbe
