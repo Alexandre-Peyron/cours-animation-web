@@ -14,3 +14,9 @@
 ### Site
 
 - [https://travelshift.com/](https://travelshift.com/)
+- [https://w-wired.com/ww/pc/](https://w-wired.com/ww/pc/)
+- [https://www.sachatourtoulou.com/](https://www.sachatourtoulou.com/)
+- [http://thegeekdesigner.com/](http://thegeekdesigner.com/)
+- [https://www.crrtt.com/](https://www.crrtt.com/)
+- [http://jamesgillen.co.uk/](http://jamesgillen.co.uk/)
+- [https://dvein.com/](https://dvein.com/)
