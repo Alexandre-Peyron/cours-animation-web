@@ -11,6 +11,7 @@ Liste d'articles permettant d'approfondir vos connaissances en animation.
 - Performances et animations CSS | EN | [https://www.html5rocks.com/en/tutorials/speed/rendering/](https://www.html5rocks.com/en/tutorials/speed/rendering/)
 
 ### CSS
+- Twitter Heart Animation | EN | [https://css-tricks.com/recreating-the-twitter-heart-animation/](https://css-tricks.com/recreating-the-twitter-heart-animation/)
 
 ### Canvas
 
