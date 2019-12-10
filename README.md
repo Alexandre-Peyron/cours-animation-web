@@ -16,7 +16,6 @@
 - [Sprite Animation](Exercises/sprite_animations/Sprite-Animation.md)
 - [Animation des lignes](Exercises/svg_line_animation/01-Line.md)
 
-- [Jeu Casse-brique](Exercises/game_brick_broken/Brick-Broken.md)
 
 ### Pour approfondir
 
