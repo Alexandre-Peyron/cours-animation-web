@@ -15,7 +15,7 @@
 - [Menu Burger](Exercises/menu_burger/Menu-burger.md)
 - [Sprite Animation](Exercises/sprite_animations/Sprite-Animation.md)
 - [Animation des lignes](Exercises/svg_line_animation/01-Line.md)
-
+- [Canvas Rosace](Exercises/canvas_rosace/Canvas-Rosace.md)
 
 ### Pour approfondir
 
