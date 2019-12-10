@@ -18,6 +18,10 @@
 
 - [Jeu Casse-brique](Exercises/game_brick_broken/Brick-Broken.md)
 
-### Sources 
+### Pour approfondir
 
-- [Liste des sources utilisées pour ce cours](Courses/Credits/Sources.md)
+- [Exemples sympa](Courses/Credits/Links.md)
+- [Articles et tuto](Courses/Credits/More.md)
+- [Conférences](Courses/Credits/Conf.md)
+- [Listes des Framework](Courses/Credits/Libs.md) 
+

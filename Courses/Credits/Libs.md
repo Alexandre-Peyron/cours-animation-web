@@ -1,0 +1,21 @@
+# Liste des frameworks et librairies d'animation
+
+- [canvas-sketch](https://github.com/mattdesl/canvas-sketch) - Framework for making generative artwork
+- [D3](http://d3js.org/) - A JavaScript visualization library for HTML and SVG
+- [Easeljs](http://www.createjs.com/easeljs) - Library for building canvas based interactive 2D content
+- [Fabric.js](http://fabricjs.com/) - Canvas Library, SVG-to-Canvas (& Canvas-to-SVG) Parser
+- [GraphicsJS](http://www.graphicsjs.org/) - Graphics library with an intuitive API, based on SVG/VML technology
+- [Konva](http://konvajs.github.io/) - Framework that extends the 2d context by enabling canvas interactivity
+- [panzoom](https://github.com/anvaka/panzoom) - Pan and zoom SVG elements
+- [Paper.js](http://paperjs.org/) - Canvas based vector graphics scripting framework
+- [Paths.js](https://github.com/andreaferretti/paths-js) - Generate SVG paths for geometric shapes
+- [pixi.js](http://www.pixijs.com/) - 2D WebGL rendering engine with Canvas fallback
+- [p5js](http://p5js.org/) - Processing for Javascript
+- [Raphael](http://raphaeljs.com/) - Library that simplify your work with vector graphics on the web
+- [Rough.js](https://roughjs.com/) - Create graphics with a hand-drawn, sketchy, appearance
+- [rune.js](http://runemadsen.github.io/rune.js/index.html) - A Library for programming graphic design systems with SVG
+- [svg.js](https://github.com/wout/svg.js) - A Library for manipulating and animating SVG
+- [svg-3d-builder](https://github.com/captainwz/svg-3d-builder) - Tool to create 3d model with svg 
+- [two.js](https://jonobr1.github.io/two.js/) -  A two-dimensional drawing api
+- [vizflow](https://github.com/vizflow/vizflow) - Interactive visualization engine
+- [Zdog](https://github.com/metafizzy/zdog) - Pseudo-3D engine for canvas & SVG
