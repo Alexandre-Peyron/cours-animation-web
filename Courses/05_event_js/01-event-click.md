@@ -55,7 +55,7 @@ Vous pouvez écouter l'ensemble de ces évènement sur une page :
 - keydown
 - keyup
 
-Vous pouvez trouver des exemples plus complet [ici](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript/Building_blocks/Ev%C3%A8nements).
+Vous pouvez trouver des exemples plus complets [ici](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript/Building_blocks/Ev%C3%A8nements).
 
 
 -> [La correction]() 
