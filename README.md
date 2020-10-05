@@ -21,6 +21,9 @@
 
 - [Veille Active](Exercises/group-review/group-review.md)
 
+### Rendus
+- [Groupe Graphistes](Courses/06_rendu/rendu-graphistes.md)
+
 
 ### Pour approfondir
 
