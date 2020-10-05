@@ -7,6 +7,7 @@
 - [CSS - Les Animations](Courses/03_animations_bases/01-Animations.md)
 - [Canvas - Les bases du dessin](Courses/04_canvas/01-Canvas-drawing.md)
 - [Canvas - Animations](Courses/04_canvas/02-Canvas-animation.md)
+- [JavaScript - Évènements](Courses/05_event_js/01-event-click.md)
 
 
 ### Exercices
