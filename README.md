@@ -23,6 +23,7 @@
 - [Veille Active](Exercises/group-review/group-review.md)
 
 ### Rendus
+- [Groupe Dev Web](Courses/06_rendu/projet-dev.md)
 - [Groupe Graphistes](Courses/06_rendu/rendu-graphistes.md)
 
 
