@@ -18,13 +18,7 @@
 - [Animation des lignes](Exercises/svg_line_animation/01-Line.md)
 - [Canvas Rosace](Exercises/canvas_rosace/Canvas-Rosace.md)
 
-### Exercices de groupe
 
-- [Veille Active](Exercises/group-review/group-review.md)
-
-### Rendus
-- [Groupe Dev Web](Courses/06_rendu/projet-dev.md)
-- [Groupe Graphistes](Courses/06_rendu/rendu-graphistes.md)
 
 
 ### Pour approfondir
